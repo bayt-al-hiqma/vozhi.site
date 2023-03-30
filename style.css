@@ -44,7 +44,7 @@
   
   /* Header section */
   #home {
-    background-image: url('background.jpg');
+    background-image: url('background.png');
     background-repeat: repeat;
     background-position: center;
     display: flex;
