@@ -44,16 +44,15 @@
   
   /* Header section */
   #home {
-    height: 100vh;
-    background-image: url('background.png');
-    background-size: cover;
+    background-image: url('background.jpg');
+    background-repeat: repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: relative; 
   }
-  
+
   #home .overlay {
     position: absolute;
     top: 0;
