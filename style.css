@@ -150,157 +150,150 @@ nav ul li a:hover {
 
 #portfolio h2 {
   font-size: 36px;
-  font-weight: bold;
-margin-bottom: 20px;
+  font-weight:
+  margin-bottom: 20px;
 }
 
-.gallery {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 20px;
-max-width: 1000px;
-}
-
-.gallery img {
-max-width: 100%;
-height: auto;
-object-fit: cover;
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Contact section */
 #contact {
-background-image: url('background.png');
-background-repeat: repeat;
-background-position: center;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+  background-image: url('background.png');
+  background-repeat: repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #contact h2 {
-font-size: 36px;
-font-weight: bold;
-margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 form {
-max-width: 600px;
-width: 100%;
+  max-width: 600px;
+  width: 100%;
 }
 
 form label {
-display: block;
-font-size: 18px;
-margin-bottom: 10px;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 form input[type='text'],
 form input[type='email'],
 form textarea {
-width: 100%;
-padding: 10px;
-font-size: 16px;
-margin-bottom: 20px;
-border: 1px solid #dddddd;
-border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
 }
 
 form textarea {
-height: 150px;
+  height: 150px;
 }
 
 form button[type='submit'] {
-background-color: #000000;
-color: #ffffff;
-border: none;
-padding: 10px 20px;
-font-size: 16px;
-border-radius: 5px;
-cursor: pointer;
-transition: all 0.3s ease;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 form button[type='submit']:hover {
-background-color: #ffffff;
-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 /* Mobile styles */
 @media (max-width: 768px) {
-nav ul {
-display: none;
-flex-direction: column;
-align-items: flex-start;
-width: 100%;
-height: calc(100vh - 70px);
-position: absolute;
-top: 70px;
-left: 0;
-background-color: #ffffff;
-z-index: 99;
-padding: 20px;
-}
+  nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 99;
+    padding: 20px;
+  }
 
-nav ul li {
-margin-bottom: 20px;
-}
+  nav ul li {
+    margin-bottom: 20px;
+  }
 
-nav ul li a {
-font-size: 24px;
-}
+  nav ul li a {
+    font-size: 24px;
+  }
 
-.menu-icon {
-display: block;
-position: fixed;
-top: 20px;
-right: 20px;
-font-size: 24px;
-cursor: pointer;
-z-index: 101;
-}
+  .menu-icon {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 101;
+  }
 
-.menu-icon.active .line1 {
-transform: rotate(-45deg) translate(-5px, 6px);
-}
+  .menu-icon.active .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
 
-.menu-icon.active .line2 {
-opacity: 0;
-}
+  .menu-icon.active .line2 {
+    opacity: 0;
+  }
 
-.menu-icon.active .line3 {
-transform: rotate(45deg) translate(-5px, -6px);
-}
+  .menu-icon.active .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
 }
 
 /* Animation styles */
 .typing-text {
-overflow: hidden;
-border-right: 1px solid #333333;
-white-space: nowrap;
-font-size: 48px;
-font-weight: bold;
-margin-bottom: 20px;
+  overflow: hidden;
+  border-right: 1px solid #333333;
+  white-space: nowrap;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* Menu icon animation */
 .line {
-width: 30px;
-height: 3px;
-background-color: #333333;
-margin: 5px;
-transition: all 0.3s ease;
+  width: 30px;
+  height: 3px;
+  background-color: #333333;
+  margin: 5px;
+  transition: all 0.3s ease;
 }
 
 .menu-icon.active .line1 {
-transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .menu-icon.active .line2 {
-opacity: 0;
+  opacity: 0;
 }
 
-.menu-icon.active .line3 {ransform: rotate(45deg) translate(-5px, -6px);
-}   
-
+.menu-icon.active .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
