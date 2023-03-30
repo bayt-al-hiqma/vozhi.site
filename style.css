@@ -1,155 +1,164 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333333;
-    font-size: 16px;
-    line-height: 1.5;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-  }
-  
-  /* Navigation menu */
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ffffff;
-    z-index: 100;
-    border-bottom: 1px solid #dddddd;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 70px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #333333;
-    transition: all 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #000000;
-  }
-  
-  /* Header section */
-  #home {
-    background-image: url('background.png');
-    background-repeat: repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; 
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  #home .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.7);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  #home h1 {
-    font-size: 48px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  #home h2 {
-    font-size: 24px;
-    text-align: center;
-  }
-  
-  /* About section */
-  #about {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  #about h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  #about p {
-    font-size: 18px;
-    text-align: center;
-    max-width: 600px;
-    margin-bottom: 40px;
-  }
-  
-  /* Services section */
-  #services {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  #services h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  #services ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 600px;
-  }
-  
-  #services li {
-    font-size: 18px;
-    margin: 0 20px;
-  }
-  
-  /* Portfolio section */
-  #portfolio {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  #portfolio h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    max-width: 1000px;
-   
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Navigation menu */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 100;
+  border-bottom: 1px solid #dddddd;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333333;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #000000;
+}
+
+/* Header section */
+#home {
+  background-image: url('background.png');
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+#home .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#home h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#home h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* About section */
+#about {
+  background-image: url('background.png');
+  background-repeat: repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+/* Services section */
+#services {
+  background-image: url('background.png');
+  background-repeat: repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#services h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#services ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 600px;
+}
+
+#services li {
+  font-size: 18px;
+  margin: 0 20px;
+}
+
+/* Portfolio section */
+#portfolio {
+  background-image: url('background.png');
+  background-repeat: repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#portfolio h2 {
+  font-size: 36px;
+  font-weight: bold;
+margin-bottom: 20px;
+}
+
+.gallery {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+max-width: 1000px;
 }
 
 .gallery img {
@@ -160,6 +169,9 @@ object-fit: cover;
 
 /* Contact section */
 #contact {
+background-image: url('background.png');
+background-repeat: repeat;
+background-position: center;
 height: 100vh;
 display: flex;
 justify-content: center;
@@ -289,6 +301,6 @@ transform: rotate(-45deg) translate(-5px, 6px);
 opacity: 0;
 }
 
-.menu-icon.active .line3 {
-transform: rotate(45deg) translate(-5px, -6px);
-}  
+.menu-icon.active .line3 {ransform: rotate(45deg) translate(-5px, -6px);
+}   
+
